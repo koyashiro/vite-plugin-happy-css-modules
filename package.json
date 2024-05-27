@@ -11,7 +11,7 @@
   "license": "MIT",
   "description": "",
   "dependencies": {
-    "happy-css-modules": "3.0.0",
+    "happy-css-modules": "3.0.1",
     "vite": "5.2.11"
   },
   "devDependencies": {
