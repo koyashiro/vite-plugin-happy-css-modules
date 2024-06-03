@@ -1,1 +1,19 @@
 # vite-plugin-happy-css-modules
+
+## Installation
+
+```sh
+npm i -D happy-css-modules vite-plugin-happy-css-modules
+```
+
+## Usage
+
+```typescript
+// vite.config.js
+import { defineConfig } from "vite";
+import happyCssModules from "vite-plugin-happy-css-modules";
+
+export default defineConfig({
+  plugins: [happyCssModules()],
+});
+```
