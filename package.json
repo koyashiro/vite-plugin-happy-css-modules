@@ -22,7 +22,7 @@
   "types": "./dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/koyashiro/vite-plugin-happy-css-modules"
+    "url": "git+https://github.com/koyashiro/vite-plugin-happy-css-modules.git"
   },
   "scripts": {
     "build": "tsc --noEmit && rm -rf ./dist/ && rollup -c",
