@@ -3,11 +3,12 @@
     "target": "es2020",
     "lib": ["ES2023"],
     "module": "ESNext",
+    "outDir": "./dist",
     "moduleResolution": "bundler",
+    "declaration": true,
     "noEmit": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
-
     "strict": true,
     "noImplicitAny": true,
     "strictNullChecks": true,

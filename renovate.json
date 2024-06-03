@@ -1,19 +1,22 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:recommended", ":semanticCommits"],
+  "automergeType": "pr",
+  "automergeStrategy": "squash",
   "lockFileMaintenance": {
     "enabled": true,
-    "automerge": true,
-    "automergeType": "pr",
-    "automergeStrategy": "squash"
+    "automerge": true
   },
   "packageRules": [
     {
+      "matchManagers": ["npm"],
+      "matchDepTypes": ["dependencies"],
+      "rangeStrategy": "widen"
+    },
+    {
       "matchUpdateTypes": ["minor", "patch"],
       "matchCurrentVersion": "!/^0/",
-      "automerge": true,
-      "automergeType": "pr",
-      "automergeStrategy": "squash"
+      "automerge": true
     }
   ],
   "reviewers": ["koyashiro"]
