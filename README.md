@@ -19,6 +19,6 @@ import { defineConfig } from "vite";
 import happyCssModules from "vite-plugin-happy-css-modules";
 
 export default defineConfig({
-  plugins: [happyCssModules()],
+  plugins: [happyCssModules({ pattern: "src/**/*.module.{css,scss,less}" })],
 });
 ```

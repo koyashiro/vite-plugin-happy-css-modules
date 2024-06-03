@@ -1,18 +1,12 @@
 import { run } from "happy-css-modules";
 import type { Plugin } from "vite";
 
-const DEFAULT_PATTERN = "**/*.module.{css,scss,less}";
+export type Options = Omit<Parameters<typeof run>[0], "watch">;
 
-export type Options = Omit<Parameters<typeof run>[0], "pattern" | "watch"> & {
-  pattern?: string;
-};
-
-export default function happyCssModules(opts?: Options): Plugin {
-  const pattern = opts?.pattern ?? DEFAULT_PATTERN;
+export default function happyCssModules(opts: Options): Plugin {
   const declarationMap = opts?.declarationMap ?? true;
 
   const runnerOptions = {
-    pattern,
     watch: false,
     declarationMap,
     ...opts,
