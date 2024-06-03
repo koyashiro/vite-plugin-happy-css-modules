@@ -14,7 +14,10 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsc --noEmit && rm -rf ./dist/ && rollup -c"
+    "build": "tsc --noEmit && rm -rf ./dist/ && rollup -c",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
   },
   "keywords": [],
   "author": "",
