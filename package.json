@@ -26,7 +26,7 @@
     "url": "git+https://github.com/koyashiro/vite-plugin-happy-css-modules.git"
   },
   "scripts": {
-    "build": "tsc --noEmit && rm -rf ./dist/ && rollup -c",
+    "build": "rm -rf ./dist/ && tsc && rollup -c",
     "lint": "eslint .",
     "format": "prettier --write .",
     "format:check": "prettier --check ."
@@ -38,7 +38,6 @@
   },
   "devDependencies": {
     "@rollup/plugin-swc": "0.3.0",
-    "@rollup/plugin-typescript": "11.1.6",
     "@swc/cli": "0.3.12",
     "@swc/core": "1.5.24",
     "@typescript-eslint/eslint-plugin": "7.12.0",

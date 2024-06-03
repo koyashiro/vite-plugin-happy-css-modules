@@ -1,5 +1,4 @@
 import swc from "@rollup/plugin-swc";
-import typescript from "@rollup/plugin-typescript";
 
 /** @type {import("rollup").RollupOptions} */
 export default {
@@ -14,6 +13,6 @@ export default {
       format: "es",
     },
   ],
-  plugins: [typescript(), swc()],
+  plugins: [swc()],
   external: ["happy-css-modules"],
 };
