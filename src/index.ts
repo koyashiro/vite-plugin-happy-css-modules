@@ -10,13 +10,11 @@ export type Options = Omit<Parameters<typeof run>[0], "pattern" | "watch"> & {
 export default function happyCssModules(opts?: Options): Plugin {
   const pattern = opts?.pattern ?? DEFAULT_PATTERN;
   const declarationMap = opts?.declarationMap ?? true;
-  const logLevel = opts?.logLevel;
 
   const runnerOptions = {
     pattern,
     watch: false,
     declarationMap,
-    logLevel,
     ...opts,
   };
 
