@@ -3,7 +3,7 @@
 ![NPM Version](https://img.shields.io/npm/v/vite-plugin-happy-css-modules)
 ![GitHub License](https://img.shields.io/github/license/koyashiro/vite-plugin-happy-css-modules)
 
-Vite plugin for happy-css-modules.
+Vite plugin for [happy-css-modules](https://github.com/mizdra/happy-css-modules).
 
 ## Installation
 
