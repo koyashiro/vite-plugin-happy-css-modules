@@ -5,6 +5,7 @@
   "type": "module",
   "keywords": [
     "vite",
+    "css",
     "css-modules",
     "happy-css-modules"
   ],
