@@ -1,7 +1,7 @@
 {
   "name": "vite-plugin-happy-css-modules",
   "version": "0.1.0",
-  "description": "Vite plugin for css-modules",
+  "description": "Vite plugin for happy-css-modules",
   "type": "module",
   "keywords": [
     "vite",
