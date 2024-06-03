@@ -1,4 +1,4 @@
-import babel from "@rollup/plugin-babel";
+import swc from "@rollup/plugin-swc";
 import typescript from "@rollup/plugin-typescript";
 
 /** @type {import("rollup").RollupOptions} */
@@ -14,6 +14,6 @@ export default {
       format: "es",
     },
   ],
-  plugins: [typescript(), babel({ babelHelpers: "bundled" })],
+  plugins: [typescript(), swc()],
   external: ["happy-css-modules"],
 };
