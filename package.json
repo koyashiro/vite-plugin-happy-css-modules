@@ -39,7 +39,7 @@
   "devDependencies": {
     "@rollup/plugin-swc": "0.3.1",
     "@swc/cli": "0.3.12",
-    "@swc/core": "1.5.28",
+    "@swc/core": "1.5.29",
     "@typescript-eslint/eslint-plugin": "7.13.0",
     "@typescript-eslint/parser": "7.13.0",
     "eslint": "8.57.0",
