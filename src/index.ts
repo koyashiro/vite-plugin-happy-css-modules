@@ -14,8 +14,15 @@ export default function happyCssModules(opts: Options): Plugin {
 
   return {
     name: "happy-css-modules",
-    buildStart: () => {
-      return run(runnerOptions);
+    buildStart: (buildStartLogs) => {
+      const logLevel =
+        opts.logLevel ||
+        (buildStartLogs.logLevel === "warn"
+          ? undefined
+          : buildStartLogs.logLevel) ||
+        "silent";
+
+      return run({ ...runnerOptions, logLevel });
     },
     handleHotUpdate: () => {
       return run(runnerOptions);
