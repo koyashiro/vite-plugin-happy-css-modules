@@ -49,7 +49,7 @@
     "prettier-plugin-organize-imports": "4.0.0",
     "rollup": "4.19.0",
     "tslib": "2.6.3",
-    "typescript": "5.5.3",
+    "typescript": "5.5.4",
     "vite": "5.3.4"
   },
   "peerDependencies": {
