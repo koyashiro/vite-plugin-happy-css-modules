@@ -50,7 +50,7 @@
     "rollup": "4.20.0",
     "tslib": "2.6.3",
     "typescript": "5.5.4",
-    "vite": "5.4.0"
+    "vite": "5.4.1"
   },
   "peerDependencies": {
     "happy-css-modules": ">= 3",
