@@ -47,7 +47,7 @@
     "happy-css-modules": "3.1.1",
     "prettier": "3.3.3",
     "prettier-plugin-organize-imports": "4.0.0",
-    "rollup": "4.20.0",
+    "rollup": "4.21.0",
     "tslib": "2.6.3",
     "typescript": "5.5.4",
     "vite": "5.4.1"
