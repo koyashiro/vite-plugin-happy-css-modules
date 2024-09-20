@@ -37,11 +37,11 @@
     "types": "./dist/index.d.ts"
   },
   "devDependencies": {
-    "@eslint/js": "9.10.0",
+    "@eslint/js": "9.11.0",
     "@rollup/plugin-swc": "0.4.0",
     "@swc/cli": "0.4.0",
     "@swc/core": "1.7.26",
-    "eslint": "9.10.0",
+    "eslint": "9.11.0",
     "eslint-config-prettier": "9.1.0",
     "globals": "15.9.0",
     "happy-css-modules": "3.1.1",
