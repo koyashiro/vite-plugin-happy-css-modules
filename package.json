@@ -46,7 +46,7 @@
     "globals": "15.9.0",
     "happy-css-modules": "3.1.1",
     "prettier": "3.3.3",
-    "prettier-plugin-organize-imports": "4.0.0",
+    "prettier-plugin-organize-imports": "4.1.0",
     "rollup": "4.22.2",
     "tslib": "2.7.0",
     "typescript": "5.6.2",
