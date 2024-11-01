@@ -37,7 +37,7 @@
     "types": "./dist/index.d.ts"
   },
   "devDependencies": {
-    "@eslint/js": "9.13.0",
+    "@eslint/js": "9.14.0",
     "@rollup/plugin-swc": "0.4.0",
     "@swc/cli": "0.4.0",
     "@swc/core": "1.7.40",
