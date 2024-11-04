@@ -44,7 +44,7 @@
     "eslint": "9.14.0",
     "eslint-config-prettier": "9.1.0",
     "globals": "15.11.0",
-    "happy-css-modules": "3.1.1",
+    "happy-css-modules": "3.2.0",
     "prettier": "3.3.3",
     "prettier-plugin-organize-imports": "4.1.0",
     "rollup": "4.24.4",
